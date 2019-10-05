@@ -13,6 +13,7 @@
         <module>mayi-shop-eurekaServer</module>
         <module>mayi-shop-api</module>
         <module>mayi-shop-member</module>
+        <module>mayi-shop-message</module>
     </modules>
 
     <parent>

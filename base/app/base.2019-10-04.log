@@ -562,3 +562,515 @@ java.net.ConnectException: Connection refused: connect
 2019-10-04 16:51:50.885 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
 2019-10-04 16:52:50.885 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
 2019-10-04 16:53:50.885 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:21:28.710 [main] INFO  com.mayi.MemberServerApplication - No active profile set, falling back to default profiles: default
+2019-10-04 17:21:32.445 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-10-04 17:21:32.449 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-10-04 17:21:32.683 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-04 17:21:33.964 [localhost-startStop-1] INFO  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-10-04 17:21:34.087 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:21:34.088 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:21:34.385 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:21:34.385 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:21:40.290 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:21:40.291 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:21:40.299 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:21:40.299 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:21:40.439 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-10-04 17:21:40.917 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:21:40.917 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:21:40.918 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:21:40.918 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:21:41.067 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 17:21:41.314 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-10-04 17:21:41.314 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-10-04 17:21:41.314 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-10-04 17:21:41.314 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-10-04 17:21:41.314 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-10-04 17:21:41.314 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-10-04 17:21:41.314 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-10-04 17:21:41.664 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-10-04 17:21:41.665 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-10-04 17:21:41.668 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-04 17:21:41.672 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1570180901671 with initial instances count: 0
+2019-10-04 17:21:41.798 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-10-04 17:21:41.799 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 17:21:41.815 [main] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-10-04 17:21:41.815 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-10-04 17:21:42.398 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1570180902398, current=UP, previous=STARTING]
+2019-10-04 17:21:42.401 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-10-04 17:21:42.531 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:21:42.556 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:21:42.574 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-10-04 17:21:42.642 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-10-04 17:21:42.666 [main] INFO  com.mayi.MemberServerApplication - Started MemberServerApplication in 18.941 seconds (JVM running for 21.398)
+2019-10-04 17:21:45.097 [RMI TCP Connection(11)-192.168.105.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-04 17:22:09.996 [http-nio-8762-exec-9] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-04 17:22:10.070 [http-nio-8762-exec-9] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:22:10.070 [http-nio-8762-exec-9] INFO  com.mayi.base.LogAspectServiceApi - 请求地址:http://localhost:8762/member/register
+2019-10-04 17:22:10.070 [http-nio-8762-exec-9] INFO  com.mayi.base.LogAspectServiceApi - 请求方式:POST
+2019-10-04 17:22:10.073 [http-nio-8762-exec-9] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法:ResponseBase com.mayi.api.service.impl.MemberServiceImpl.regUser(UserEntity)
+2019-10-04 17:22:10.073 [http-nio-8762-exec-9] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法参数:[com.mayi.entity.UserEntity@62a9e3b7]
+2019-10-04 17:22:10.073 [http-nio-8762-exec-9] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:22:10.078 [http-nio-8762-exec-9] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:22:10.092 [http-nio-8762-exec-9] INFO  com.mayi.base.LogAspectServiceApi - Response内容:{"msg":"密码不能为空.","rtnCode":500}
+2019-10-04 17:22:10.092 [http-nio-8762-exec-9] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:22:11.667 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-10-04 17:22:11.668 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-10-04 17:22:11.668 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-10-04 17:22:11.668 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-10-04 17:22:11.668 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-10-04 17:22:11.668 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-10-04 17:22:11.668 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-10-04 17:22:11.713 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-10-04 17:22:12.541 [Thread-47] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MEMBER/localhost:member:8762 with status UP (replication=true)
+2019-10-04 17:22:12.541 [Thread-47] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-10-04 17:22:12.541 [Thread-47] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-10-04 17:22:12.541 [Thread-47] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-10-04 17:23:09.566 [http-nio-8762-exec-8] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:23:09.567 [http-nio-8762-exec-8] INFO  com.mayi.base.LogAspectServiceApi - 请求地址:http://localhost:8762/member/register
+2019-10-04 17:23:09.567 [http-nio-8762-exec-8] INFO  com.mayi.base.LogAspectServiceApi - 请求方式:POST
+2019-10-04 17:23:09.567 [http-nio-8762-exec-8] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法:ResponseBase com.mayi.api.service.impl.MemberServiceImpl.regUser(UserEntity)
+2019-10-04 17:23:09.567 [http-nio-8762-exec-8] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法参数:[com.mayi.entity.UserEntity@d97f1e5]
+2019-10-04 17:23:09.567 [http-nio-8762-exec-8] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:23:09.567 [http-nio-8762-exec-8] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:23:09.567 [http-nio-8762-exec-8] INFO  com.mayi.base.LogAspectServiceApi - Response内容:{"msg":"密码不能为空.","rtnCode":500}
+2019-10-04 17:23:09.567 [http-nio-8762-exec-8] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:23:12.543 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:23:45.296 [main] INFO  com.mayi.MemberServerApplication - No active profile set, falling back to default profiles: default
+2019-10-04 17:23:49.118 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-10-04 17:23:49.120 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-10-04 17:23:49.401 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-04 17:23:51.137 [localhost-startStop-1] INFO  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-10-04 17:23:51.505 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:23:51.509 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:23:51.718 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:23:51.719 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:25:32.716 [main] INFO  com.mayi.MemberServerApplication - No active profile set, falling back to default profiles: default
+2019-10-04 17:25:36.274 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-10-04 17:25:36.275 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-10-04 17:25:36.526 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-04 17:25:38.048 [localhost-startStop-1] INFO  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-10-04 17:25:38.165 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:25:38.166 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:25:38.476 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:25:38.476 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:25:44.400 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:25:44.400 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:25:44.410 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:25:44.410 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:25:44.530 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-10-04 17:25:44.961 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:25:44.961 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:25:44.961 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:25:44.961 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:25:45.081 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 17:25:45.353 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-10-04 17:25:45.354 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-10-04 17:25:45.354 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-10-04 17:25:45.354 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-10-04 17:25:45.354 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-10-04 17:25:45.354 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-10-04 17:25:45.354 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-10-04 17:25:45.633 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-10-04 17:25:45.636 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-10-04 17:25:45.640 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-04 17:25:45.645 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1570181145644 with initial instances count: 1
+2019-10-04 17:25:45.775 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-10-04 17:25:45.777 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 17:25:45.791 [main] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-10-04 17:25:45.791 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-10-04 17:25:46.353 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1570181146353, current=UP, previous=STARTING]
+2019-10-04 17:25:46.355 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-10-04 17:25:46.411 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-10-04 17:25:46.449 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:25:46.450 [Thread-47] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MEMBER/localhost:member:8762 with status UP (replication=true)
+2019-10-04 17:25:46.451 [Thread-47] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-10-04 17:25:46.451 [Thread-47] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-10-04 17:25:46.451 [Thread-47] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-10-04 17:25:46.468 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:25:46.482 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-10-04 17:25:46.520 [main] INFO  com.mayi.MemberServerApplication - Started MemberServerApplication in 18.671 seconds (JVM running for 20.72)
+2019-10-04 17:25:48.592 [RMI TCP Connection(8)-192.168.105.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-04 17:26:01.649 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-04 17:26:01.726 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:26:01.727 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - 请求地址:http://localhost:8762/member/register
+2019-10-04 17:26:01.727 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - 请求方式:POST
+2019-10-04 17:26:01.729 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法:ResponseBase com.mayi.api.service.impl.MemberServiceImpl.regUser(UserEntity)
+2019-10-04 17:26:01.729 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法参数:[com.mayi.entity.UserEntity@17850b1f]
+2019-10-04 17:26:01.729 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:26:01.735 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:26:01.752 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - Response内容:{"msg":"密码不能为空.","rtnCode":500}
+2019-10-04 17:26:01.752 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:27:14.178 [main] INFO  com.mayi.MemberServerApplication - No active profile set, falling back to default profiles: default
+2019-10-04 17:27:17.734 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-10-04 17:27:17.735 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-10-04 17:27:17.973 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-04 17:27:18.930 [localhost-startStop-1] INFO  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-10-04 17:27:19.045 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:27:19.047 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:27:19.324 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:27:19.324 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:27:24.482 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:27:24.482 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:27:24.495 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:27:24.495 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:27:24.616 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-10-04 17:27:25.084 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:27:25.085 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:27:25.085 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:27:25.085 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:27:25.239 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 17:27:25.499 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-10-04 17:27:25.500 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-10-04 17:27:25.500 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-10-04 17:27:25.500 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-10-04 17:27:25.500 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-10-04 17:27:25.500 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-10-04 17:27:25.500 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-10-04 17:27:25.859 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-10-04 17:27:25.860 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-10-04 17:27:25.864 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-04 17:27:25.867 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1570181245867 with initial instances count: 0
+2019-10-04 17:27:25.965 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-10-04 17:27:25.966 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 17:27:25.978 [main] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-10-04 17:27:25.979 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-10-04 17:27:26.600 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1570181246600, current=UP, previous=STARTING]
+2019-10-04 17:27:26.602 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-10-04 17:27:26.710 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:27:26.732 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:27:26.746 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-10-04 17:27:26.754 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-10-04 17:27:26.777 [main] INFO  com.mayi.MemberServerApplication - Started MemberServerApplication in 17.311 seconds (JVM running for 19.5)
+2019-10-04 17:27:29.250 [RMI TCP Connection(5)-192.168.105.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-04 17:27:45.528 [http-nio-8762-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-04 17:27:45.613 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:27:45.613 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - 请求地址:http://localhost:8762/member/register
+2019-10-04 17:27:45.613 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - 请求方式:POST
+2019-10-04 17:27:45.615 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法:ResponseBase com.mayi.api.service.impl.MemberServiceImpl.regUser(UserEntity)
+2019-10-04 17:27:45.615 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法参数:[UserEntity{id=null, username='null', password='null', phone='null', email='null', created=null, updated=null}]
+2019-10-04 17:27:45.616 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:27:45.621 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:27:45.636 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - Response内容:{"msg":"密码不能为空.","rtnCode":500}
+2019-10-04 17:27:45.637 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:27:55.862 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-10-04 17:27:55.862 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-10-04 17:27:55.862 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-10-04 17:27:55.862 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-10-04 17:27:55.862 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-10-04 17:27:55.862 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-10-04 17:27:55.862 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-10-04 17:27:55.901 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-10-04 17:27:56.718 [Thread-47] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MEMBER/localhost:member:8762 with status UP (replication=true)
+2019-10-04 17:27:56.718 [Thread-47] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-10-04 17:27:56.718 [Thread-47] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-10-04 17:27:56.718 [Thread-47] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-10-04 17:28:56.719 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:29:56.719 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:30:20.264 [http-nio-8762-exec-5] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:30:20.265 [http-nio-8762-exec-5] INFO  com.mayi.base.LogAspectServiceApi - 请求地址:http://localhost:8762/member/register
+2019-10-04 17:30:20.265 [http-nio-8762-exec-5] INFO  com.mayi.base.LogAspectServiceApi - 请求方式:POST
+2019-10-04 17:30:20.265 [http-nio-8762-exec-5] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法:ResponseBase com.mayi.api.service.impl.MemberServiceImpl.regUser(UserEntity)
+2019-10-04 17:30:20.265 [http-nio-8762-exec-5] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法参数:[UserEntity{id=null, username='null', password='null', phone='null', email='null', created=null, updated=null}]
+2019-10-04 17:30:20.265 [http-nio-8762-exec-5] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:30:20.265 [http-nio-8762-exec-5] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:30:20.265 [http-nio-8762-exec-5] INFO  com.mayi.base.LogAspectServiceApi - Response内容:{"msg":"密码不能为空.","rtnCode":500}
+2019-10-04 17:30:20.265 [http-nio-8762-exec-5] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:30:56.719 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:31:52.428 [main] INFO  com.mayi.MemberServerApplication - No active profile set, falling back to default profiles: default
+2019-10-04 17:31:55.113 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-10-04 17:31:55.114 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-10-04 17:31:55.340 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-04 17:31:56.176 [localhost-startStop-1] INFO  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-10-04 17:31:56.283 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:31:56.284 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:31:56.542 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:31:56.543 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:32:01.354 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:32:01.354 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:32:01.361 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:32:01.361 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:32:01.468 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-10-04 17:32:01.845 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:32:01.845 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:32:01.846 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:32:01.846 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:32:01.954 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 17:32:02.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-10-04 17:32:02.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-10-04 17:32:02.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-10-04 17:32:02.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-10-04 17:32:02.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-10-04 17:32:02.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-10-04 17:32:02.183 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-10-04 17:32:02.419 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-10-04 17:32:02.422 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-10-04 17:32:02.425 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-04 17:32:02.428 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1570181522428 with initial instances count: 1
+2019-10-04 17:32:02.554 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-10-04 17:32:02.554 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 17:32:02.565 [main] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-10-04 17:32:02.565 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-10-04 17:32:03.071 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1570181523071, current=UP, previous=STARTING]
+2019-10-04 17:32:03.073 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-10-04 17:32:03.123 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-10-04 17:32:03.157 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:32:03.158 [Thread-44] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MEMBER/localhost:member:8762 with status UP (replication=true)
+2019-10-04 17:32:03.158 [Thread-44] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-10-04 17:32:03.158 [Thread-44] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-10-04 17:32:03.158 [Thread-44] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-10-04 17:32:03.174 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:32:03.184 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-10-04 17:32:03.213 [main] INFO  com.mayi.MemberServerApplication - Started MemberServerApplication in 15.27 seconds (JVM running for 16.999)
+2019-10-04 17:32:05.189 [RMI TCP Connection(2)-192.168.105.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-04 17:32:15.827 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-04 17:32:15.897 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:32:15.897 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - 请求地址:http://localhost:8762/member/register
+2019-10-04 17:32:15.898 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - 请求方式:POST
+2019-10-04 17:32:15.900 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法:ResponseBase com.mayi.api.service.impl.MemberServiceImpl.regUser(UserEntity)
+2019-10-04 17:32:15.900 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法参数:[UserEntity{id=null, username='null', password='null', phone='null', email='null', created=null, updated=null}]
+2019-10-04 17:32:15.900 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:32:15.905 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:32:15.919 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - Response内容:{"msg":"密码不能为空.","rtnCode":500}
+2019-10-04 17:32:15.919 [http-nio-8762-exec-1] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:32:33.381 [http-nio-8762-exec-3] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:32:33.381 [http-nio-8762-exec-3] INFO  com.mayi.base.LogAspectServiceApi - 请求地址:http://localhost:8762/member/register
+2019-10-04 17:32:33.381 [http-nio-8762-exec-3] INFO  com.mayi.base.LogAspectServiceApi - 请求方式:POST
+2019-10-04 17:32:33.382 [http-nio-8762-exec-3] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法:ResponseBase com.mayi.api.service.impl.MemberServiceImpl.regUser(UserEntity)
+2019-10-04 17:32:33.382 [http-nio-8762-exec-3] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法参数:[UserEntity{id=null, username='null', password='null', phone='null', email='null', created=null, updated=null}]
+2019-10-04 17:32:33.382 [http-nio-8762-exec-3] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:32:33.382 [http-nio-8762-exec-3] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:32:33.382 [http-nio-8762-exec-3] INFO  com.mayi.base.LogAspectServiceApi - Response内容:{"msg":"密码不能为空.","rtnCode":500}
+2019-10-04 17:32:33.382 [http-nio-8762-exec-3] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:33:11.464 [main] INFO  com.mayi.MemberServerApplication - No active profile set, falling back to default profiles: default
+2019-10-04 17:33:14.143 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-10-04 17:33:14.144 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-10-04 17:33:14.356 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-04 17:33:15.204 [localhost-startStop-1] INFO  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-10-04 17:33:15.310 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:33:15.311 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:33:15.574 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:33:15.574 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:33:20.451 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:33:20.452 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:33:20.458 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:33:20.459 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:33:20.567 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-10-04 17:33:20.949 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:33:20.949 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:33:20.949 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:33:20.949 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:33:21.058 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 17:33:21.303 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-10-04 17:33:21.303 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-10-04 17:33:21.303 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-10-04 17:33:21.303 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-10-04 17:33:21.303 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-10-04 17:33:21.303 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-10-04 17:33:21.303 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-10-04 17:33:21.519 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-10-04 17:33:21.522 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-10-04 17:33:21.525 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-04 17:33:21.528 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1570181601528 with initial instances count: 1
+2019-10-04 17:33:21.620 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-10-04 17:33:21.621 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 17:33:21.634 [main] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-10-04 17:33:21.634 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-10-04 17:33:22.187 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1570181602187, current=UP, previous=STARTING]
+2019-10-04 17:33:22.189 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-10-04 17:33:22.236 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-10-04 17:33:22.271 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:33:22.272 [Thread-43] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MEMBER/localhost:member:8762 with status UP (replication=true)
+2019-10-04 17:33:22.272 [Thread-43] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-10-04 17:33:22.273 [Thread-43] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-10-04 17:33:22.273 [Thread-43] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-10-04 17:33:22.287 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:33:22.297 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-10-04 17:33:22.327 [main] INFO  com.mayi.MemberServerApplication - Started MemberServerApplication in 15.279 seconds (JVM running for 17.237)
+2019-10-04 17:33:24.433 [RMI TCP Connection(3)-192.168.105.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-04 17:34:22.274 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:34:32.969 [http-nio-8762-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-04 17:34:33.044 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:34:33.044 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - 请求地址:http://localhost:8762/member/register
+2019-10-04 17:34:33.044 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - 请求方式:POST
+2019-10-04 17:34:33.047 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法:ResponseBase com.mayi.api.service.impl.MemberServiceImpl.regUser(UserEntity)
+2019-10-04 17:34:33.047 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - 请求类方法参数:[UserEntity{id=null, username='null', password='null', phone='null', email='null', created=null, updated=null}]
+2019-10-04 17:34:33.047 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - ===============请求内容===============
+2019-10-04 17:34:33.052 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:34:33.066 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - Response内容:{"msg":"密码不能为空.","rtnCode":500}
+2019-10-04 17:34:33.067 [http-nio-8762-exec-2] INFO  com.mayi.base.LogAspectServiceApi - --------------返回内容----------------
+2019-10-04 17:35:22.275 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:36:22.276 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-10-04 17:37:22.931 [main] INFO  com.mayi.MemberServerApplication - No active profile set, falling back to default profiles: default
+2019-10-04 17:37:26.499 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-10-04 17:37:26.500 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-10-04 17:37:26.768 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-04 17:37:28.255 [localhost-startStop-1] INFO  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-10-04 17:37:28.722 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:37:28.724 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:37:28.958 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:37:28.958 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:40:52.252 [main] INFO  com.mayi.MemberServerApplication - No active profile set, falling back to default profiles: default
+2019-10-04 17:40:56.722 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-10-04 17:40:56.724 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-10-04 17:40:57.065 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-04 17:40:58.469 [localhost-startStop-1] INFO  com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-10-04 17:40:58.706 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:40:58.720 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:40:59.497 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:40:59.500 [localhost-startStop-1] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:41:06.468 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:41:06.468 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:41:06.475 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-10-04 17:41:06.476 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-04 17:41:06.635 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-10-04 17:41:07.176 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-10-04 17:41:07.176 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-10-04 17:41:07.176 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-10-04 17:41:07.176 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-10-04 17:41:07.295 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 17:41:07.593 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-10-04 17:41:07.593 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-10-04 17:41:07.593 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-10-04 17:41:07.593 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-10-04 17:41:07.593 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-10-04 17:41:07.593 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-10-04 17:41:07.593 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-10-04 17:41:07.989 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-10-04 17:41:07.990 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-10-04 17:41:07.995 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-04 17:41:07.999 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1570182067999 with initial instances count: 0
+2019-10-04 17:41:08.088 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-10-04 17:41:08.089 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 17:41:08.101 [main] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-10-04 17:41:08.101 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-10-04 17:41:09.334 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1570182069334, current=UP, previous=STARTING]
+2019-10-04 17:41:09.336 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-10-04 17:41:09.471 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:41:09.500 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-10-04 17:41:09.511 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-10-04 17:41:09.517 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-10-04 17:41:09.552 [main] INFO  com.mayi.MemberServerApplication - Started MemberServerApplication in 22.95 seconds (JVM running for 25.855)
+2019-10-04 17:41:12.567 [RMI TCP Connection(3)-192.168.105.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-04 17:41:37.993 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-10-04 17:41:37.994 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-10-04 17:41:37.994 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-10-04 17:41:37.994 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-10-04 17:41:37.994 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-10-04 17:41:37.994 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-10-04 17:41:37.994 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-10-04 17:41:38.044 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-10-04 17:41:39.648 [Thread-56] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MEMBER/localhost:member:8762 with status UP (replication=true)
+2019-10-04 17:41:39.648 [Thread-56] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-10-04 17:41:39.648 [Thread-56] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-10-04 17:41:39.649 [Thread-56] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-10-04 17:42:39.656 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:43:39.657 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:44:39.657 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:45:39.658 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:46:07.597 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 17:46:39.659 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:47:39.660 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-10-04 17:48:39.660 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:49:39.661 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:50:39.661 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:51:07.598 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 17:51:08.091 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 17:51:39.662 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:52:39.662 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:53:39.663 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:54:39.664 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:55:39.664 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:56:07.599 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 17:56:08.101 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 1
+2019-10-04 17:56:39.665 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:57:39.665 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:58:39.665 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 17:59:39.666 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-10-04 18:00:39.666 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:01:07.601 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:01:08.092 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 18:01:39.666 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:02:39.667 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:03:39.667 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:04:39.667 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:05:39.667 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:06:07.604 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:06:39.669 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-10-04 18:07:39.669 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:08:39.670 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:09:39.670 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:10:39.670 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:11:07.605 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:11:08.093 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 18:11:08.101 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 1
+2019-10-04 18:11:39.670 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:12:39.671 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:13:39.671 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:14:39.671 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:15:39.671 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:16:07.607 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:16:39.671 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:17:39.671 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:18:39.671 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:19:39.671 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:20:39.671 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:21:07.610 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:21:08.094 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 18:21:39.671 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:22:39.672 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-10-04 18:23:39.673 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-10-04 18:24:39.674 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:25:39.675 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-10-04 18:26:07.612 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:26:08.101 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 1
+2019-10-04 18:26:39.675 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:27:39.675 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:28:39.675 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:29:39.675 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:30:39.675 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:31:07.614 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:31:08.097 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 18:31:39.675 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:32:39.676 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:33:39.676 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:34:39.676 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:35:39.677 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:36:07.615 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:36:39.677 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:37:39.678 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-10-04 18:38:39.678 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:39:39.679 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:40:39.680 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-10-04 18:41:07.616 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:41:08.097 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 18:41:08.101 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 1
+2019-10-04 18:41:39.681 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:42:39.681 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:43:39.681 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:44:39.682 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:45:39.682 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:46:07.619 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:46:39.683 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:47:39.683 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:48:39.684 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:49:39.684 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:50:39.685 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:51:07.620 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:51:08.099 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 18:51:39.685 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:52:39.685 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:53:39.686 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:54:39.686 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:55:39.687 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:56:07.622 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 18:56:08.102 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 1
+2019-10-04 18:56:39.687 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:57:39.688 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:58:39.688 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 18:59:39.688 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 19:00:39.689 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 19:01:07.623 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-10-04 19:01:08.100 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-10-04 19:01:39.689 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-10-04 22:02:37.945 [Eureka-EvictionTimer] INFO  com.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 10798261ms

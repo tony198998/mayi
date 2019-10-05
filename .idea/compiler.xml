@@ -10,6 +10,7 @@
         <module name="mayi-shop-common" />
         <module name="mayi-shop-eurekaServer" />
         <module name="mayi-shop-member" />
+        <module name="mayi-shop-message" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -7,12 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/member")
 public interface MemberService {
 
     //根据userid查找用户信息
     @RequestMapping("/findUserById")
     ResponseBase findUserById(Long userId);
 
-    @RequestMapping("/regUser")
+    @RequestMapping("/register")
     ResponseBase regUser(@RequestBody UserEntity user);
 }
