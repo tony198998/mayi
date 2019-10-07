@@ -9,6 +9,7 @@ import com.mayi.dao.MemberDao;
 import com.mayi.entity.UserEntity;
 import com.mayi.mq.RegisterMailboxProducer;
 import com.mayi.utils.MD5Util;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.activemq.command.ActiveMQQueue;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,7 @@ import org.springframework.stereotype.Service;
 import java.util.Objects;
 
 @Service
+@Slf4j
 @SuppressWarnings("all")
 public class MemberServiceImpl extends BaseApiService implements MemberService {
 
@@ -42,7 +44,12 @@ public class MemberServiceImpl extends BaseApiService implements MemberService {
         if (result <= 0) {
             return setResultError("注册用户信息失败.");
         }
-        return setResultSuccess("用户注册成功.");
+        // 采用异步方式发送消息
+        String email = user.getEmail();
+        String json = emailJson(email);
+        log.info("####会员服务推送消息到消息服务平台####json:{}", json);
+        this.sendMsg(json);
+        return super.setResultSuccess("用户注册成功.");
     }
 
     @Override

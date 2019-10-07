@@ -1,12 +1,10 @@
 package com.mayi.entity;
 
-import lombok.Getter;
-import lombok.Setter;
-
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
 import java.util.Date;
 
-@Getter
-@Setter
+@Data
 public class UserEntity {
 
     private Integer id;
