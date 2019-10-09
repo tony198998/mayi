@@ -113,6 +113,16 @@ public class MemberServiceImpl extends BaseApiService implements MemberService {
         return setResultSuccess(userEntity);
     }
 
+    @Override
+    public ResponseBase findByOpenIdUser(String openid) {
+        return null;
+    }
+
+    @Override
+    public ResponseBase qqLogin(UserEntity user) {
+        return null;
+    }
+
 
     private String emailJson(String email) {
         JSONObject rootJson = new JSONObject();

@@ -24,6 +24,8 @@ public interface Constants {
 
     // 用户有效期 90天
     Long TOKEN_MEMBER_TIME =(long) (60*60*24*90);
-
+    int COOKIE_TOKEN_MEMBER_TIME =(60*60*24*90);
+    // cookie 会员 totoken 名称
+    String COOKIE_MEMBER_TOKEN ="cookie_member_token";
 
 }

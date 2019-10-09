@@ -11,6 +11,7 @@
         <module name="mayi-shop-eurekaServer" />
         <module name="mayi-shop-member" />
         <module name="mayi-shop-message" />
+        <module name="mayi-shop-pc-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
