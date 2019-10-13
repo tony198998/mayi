@@ -22,7 +22,6 @@ import java.util.Objects;
 
 @Service
 @Slf4j
-@SuppressWarnings("all")
 public class MemberServiceImpl extends BaseApiService implements MemberService {
 
     @Autowired
@@ -34,7 +33,8 @@ public class MemberServiceImpl extends BaseApiService implements MemberService {
     private String MESSAGESQUEUE;
 
     @Override
-    public ResponseBase regUser(UserEntity user) {
+    public ResponseBase regUser(@RequestBody UserEntity user) {
+        System.out.println("…………"+user.toString());
         // 参数验证
         String password = user.getPassword();
         if (StringUtils.isEmpty(password)) {
@@ -50,7 +50,7 @@ public class MemberServiceImpl extends BaseApiService implements MemberService {
         String email = user.getEmail();
         String json = emailJson(email);
         log.info("####会员服务推送消息到消息服务平台####json:{}", json);
-        this.sendMsg(json);
+      //  this.sendMsg(json);
         return super.setResultSuccess("用户注册成功.");
     }
 

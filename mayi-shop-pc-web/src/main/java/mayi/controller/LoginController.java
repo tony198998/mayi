@@ -18,8 +18,8 @@ import java.util.LinkedHashMap;
 
 @Controller
 public class LoginController {
-//	@Autowired
-//	private MemberServiceFegin memberServiceFegin;
+	@Autowired
+	private MemberServiceFegin memberServiceFegin;
 	private static final String LOGIN = "login";
 	private static final String INDEX = "redirect:/";
 	private static final String qqrelation = "qqrelation";
@@ -34,20 +34,20 @@ public class LoginController {
 	public String loginPost(UserEntity userEntity, HttpServletRequest request, HttpServletResponse response) {
 		// 1.验证参数
 		// 2.调用登录接口，获取token信息
-//		ResponseBase loginBase = memberServiceFegin.login(userEntity);
-//		if (!loginBase.getRtnCode().equals(Constants.HTTP_RES_CODE_200)) {
-//			request.setAttribute("error", "账号或者密码错误!");
-//			return LOGIN;
-//		}
-//
-//		LinkedHashMap loginData = (LinkedHashMap) loginBase.getData();
-//		String memberToken = (String) loginData.get("memberToken");
-//		if (StringUtils.isEmpty(memberToken)) {
-//			request.setAttribute("error", "会话已经失效!");
-//			return LOGIN;
-//		}
-//		// 3.将token信息存放在cookie里面
-//		setCookie(memberToken, response);
+		ResponseBase loginBase = memberServiceFegin.login(userEntity);
+		if (!loginBase.getRtnCode().equals(Constants.HTTP_RES_CODE_200)) {
+			request.setAttribute("error", "账号或者密码错误!");
+			return LOGIN;
+		}
+
+		LinkedHashMap loginData = (LinkedHashMap) loginBase.getData();
+		String memberToken = (String) loginData.get("memberToken");
+		if (StringUtils.isEmpty(memberToken)) {
+			request.setAttribute("error", "会话已经失效!");
+			return LOGIN;
+		}
+		// 3.将token信息存放在cookie里面
+		setCookie(memberToken, response);
 		return INDEX;
 	}
 	public void setCookie(String memberToken, HttpServletResponse response){

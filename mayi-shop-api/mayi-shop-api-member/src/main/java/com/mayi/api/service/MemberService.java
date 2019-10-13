@@ -12,7 +12,7 @@ public interface MemberService {
     @RequestMapping("/findUserById")
     ResponseBase findUserById(Long userId);
 
-    @RequestMapping(value = "/register",method = RequestMethod.POST)
+    @RequestMapping("/register")
     ResponseBase regUser(@RequestBody UserEntity user);
 
     // 用户登录

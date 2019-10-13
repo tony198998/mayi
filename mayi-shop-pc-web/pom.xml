@@ -35,7 +35,7 @@
         <dependency>
             <groupId>com.sdk4j</groupId>
             <artifactId>sdk4j</artifactId>
-            <version>2.0</version>
+            <version>1.0</version>
         </dependency>
 
 
