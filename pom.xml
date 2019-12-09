@@ -15,6 +15,9 @@
         <module>mayi-shop-member</module>
         <module>mayi-shop-message</module>
         <module>mayi-shop-pc-web</module>
+
+
+
     </modules>
 
     <parent>
